@@ -23,6 +23,7 @@ class Key extends React.Component {
 	activateSound() {
 		const { letterCode, sound } = this.props;
 		const audioEl = document.getElementById(`${sound}-${letterCode}`);
+		audioEl.currentTime = 0;
 		audioEl.play();
 
 		const pressedKey = document.getElementById(`key-${letterCode}`);
@@ -41,7 +42,7 @@ class Key extends React.Component {
 				<p>{sound}</p>
 				<audio
 					id={`${sound}-${letterCode}`}
-					src={`/drumkit/sounds/${sound}.wav`}
+					src={`/sounds/${sound}.wav`}
 				/>
 			</div>
 		);
