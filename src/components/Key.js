@@ -41,7 +41,7 @@ class Key extends React.Component {
 				<p>{sound}</p>
 				<audio
 					id={`${sound}-${letterCode}`}
-					src={`/sounds/${sound}.wav`}
+					src={`/drumkit/sounds/${sound}.wav`}
 				/>
 			</div>
 		);
