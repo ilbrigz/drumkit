@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/drumkit/precache-manifest.ec91cbeacf2dc9cd93932af2f5f61869.js"
+  "/drumkit/precache-manifest.126684e15f85c51163e56f778b8253c5.js"
 );
 
 workbox.clientsClaim();
