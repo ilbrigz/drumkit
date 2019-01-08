@@ -1,0 +1,45 @@
+.App {
+	font-family: sans-serif;
+	margin-top: 3rem;padding-left: 1rem;
+}
+
+.keys {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 30rem;
+	margin: 0 auto;
+	margin:right
+}
+.key {
+	flex-grow: 1;
+	transition: all 0.07s ease;
+	height: 100px;
+	flex-basis: 100px;
+	background-color: yellow;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 50%;
+	border: 3px solid rgb(16, 107, 177);
+	box-shadow: 3px 3px red, -1em 0 0.4em olive;
+	max-width: 50%;
+	cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
+}
+.playing {
+	background-color: #dbb402;
+}
+kbd {
+	font-size: 3rem;
+}
